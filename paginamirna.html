@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componentes de Red y Cableado Estructurado</title>
+    <link rel="icon" href="la-red.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .description {
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Descripción Técnica de Componentes de Red y Cableado Estructurado</h1>
+       
+        <div class="section">
+            <h2>Componentes Pasivos de Red</h2>
+            <ul>
+                <li>
+                    <strong>Patch Panel:</strong>
+                    <div class="description">
+                        Un patch panel es un dispositivo que agrupa múltiples conexiones de red en un solo punto de administración. Facilita la organización y la reconfiguración de las conexiones de red.
+                    </div>
+                </li>
+                <li>
+                    <strong>Conectores RJ45:</strong>
+                    <div class="description">
+                        Los conectores RJ45 son utilizados para conectar cables de red a equipos y dispositivos. Son esenciales para establecer conexiones Ethernet.
+                    </div>
+                </li>
+                <li>
+                    <strong>Tomacorrientes de Red:</strong>
+                    <div class="description">
+                        Los tomacorrientes de red son puntos de conexión en las paredes que permiten la conexión de cables de red a dispositivos. Facilitan la conectividad en diferentes ubicaciones.
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Componentes Activos de Red</h2>
+            <ul>
+                <li>
+                    <strong>Router:</strong>
+                    <div class="description">
+                        Un router dirige el tráfico de datos entre diferentes redes, como una red local y la Internet. Se encarga de asignar direcciones IP y manejar el enrutamiento de paquetes.
+                    </div>
+                </li>
+                <li>
+                    <strong>Switch:</strong>
+                    <div class="description">
+                        Un switch conecta varios dispositivos dentro de una misma red, permitiendo la comunicación entre ellos. Trabaja en el nivel 2 del modelo OSI y realiza switching de paquetes de datos.
+                    </div>
+                </li>
+                <li>
+                    <strong>Access Point (Punto de Acceso):</strong>
+                    <div class="description">
+                        Un punto de acceso permite a los dispositivos inalámbricos conectarse a una red cableada mediante Wi-Fi. Extiende la cobertura de la red.
+                    </div>
+                </li>
+                <li>
+                    <strong>Firewall:</strong>
+                    <div class="description">
+                        Un firewall es un dispositivo de seguridad que filtra el tráfico de red para proteger contra accesos no autorizados y amenazas externas.
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Herramientas para Cableado Estructurado</h2>
+            <ul>
+                <li>
+                    <strong>Crimpadora:</strong>
+                    <div class="description">
+                        Herramienta utilizada para insertar conectores RJ45 en los extremos de los cables de red. Asegura una conexión adecuada y segura.
+                    </div>
+                </li>
+                <li>
+                    <strong>Tester de Red:</strong>
+                    <div class="description">
+                        Dispositivo que verifica la integridad y la correcta instalación de los cables de red, asegurando que no haya fallos en la conexión.
+                    </div>
+                </li>
+                <li>
+                    <strong>Cortadora de Cables:</strong>
+                    <div class="description">
+                        Herramienta utilizada para cortar cables a medida. Permite preparar cables para la instalación.
+                    </div>
+                </li>
+                <li>
+                    <strong>Peladora de Cables:</strong>
+                    <div class="description">
+                        Dispositivo que retira el aislamiento de los cables de red sin dañar los conductores internos, preparándolos para la conexión.
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Cableado Horizontal y Vertical</h2>
+            <p>
+                <strong>Cableado Horizontal:</strong> Se refiere a la instalación de cables de red desde el panel de parcheo hasta las tomas de red en cada oficina o área de trabajo. Generalmente cubre distancias de hasta 90 metros.
+            </p>
+            <p>
+                <strong>Cableado Vertical:</strong> También conocido como cableado de backbone, conecta diferentes pisos o áreas dentro de un edificio a través de cables de red. Maneja conexiones entre diferentes partes de la infraestructura de red.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Tipos de Cables para Cableado Horizontal</h2>
+            <ul>
+                <li>
+                    <strong>Cable U/FTP (Unshielded Foiled Twisted Pair):</strong>
+                    <div class="description">
+                        Cable de par trenzado sin apantallamiento general pero con apantallamiento individual para cada par. Adecuado para distancias cortas en entornos con baja interferencia.
+                    </div>
+                    <img src="utp.jpg" alt="Cable U/FTP" width="250">
+                </li>
+                <li>
+                    <strong>Cable F/UTP (Foiled Unshielded Twisted Pair):</strong>
+                    <div class="description">
+                        Cable con apantallamiento global, lo que ayuda a reducir la interferencia electromagnética. Ideal para entornos con niveles altos de interferencia.
+                    </div>
+                    <img src="f_hskp423ha5.jpg" alt="Cable F/UTP" width="250">
+                </li>
+                <li>
+                    <strong>Cable STP (Shielded Twisted Pair):</strong>
+                    <div class="description">
+                        Cable de par trenzado con apantallamiento para cada par y para el cable completo. Ofrece una protección superior contra interferencias externas.
+                    </div>
+                    <img src="stp.jpg" alt="Cable STP" width="250">
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Normativa para Cables de Red</h2>
+            <p>
+                <strong>Clase A:</strong> Según la normativa, los cables clase A deben cumplir con ciertos requisitos de rendimiento y calidad, como la atenuación y la diafonía. Estas normativas garantizan la integridad y la fiabilidad de la conexión de red.
+            </p>
+            <p>
+                <strong>Clase B:</strong> Los cables clase B tienen especificaciones de rendimiento ligeramente diferentes a las clase A, con requisitos específicos para la transmisión de datos en redes de alta velocidad.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Uso de Cables en la Red</h2>
+            <p>
+                <strong>Cable Directo:</strong> Se utiliza para conectar dispositivos de red a través de un switch o hub, como conectar un ordenador a un switch. La configuración de pines es la misma en ambos extremos del cable.
+            </p>
+            <p>
+                <strong>Cable Cruzado:</strong> Se utiliza para conectar directamente dos dispositivos de red entre sí, como conectar dos ordenadores sin pasar por un switch. La configuración de pines es diferente en cada extremo del cable.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
